@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Test App",
+    "name": "Test-App",
     "slug": "test-app",
     "privacy": "public",
     "platforms": ["ios", "android", "web"],
