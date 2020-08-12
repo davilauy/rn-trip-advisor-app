@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Test App",
+    "slug": "test-app",
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "app.davila.Test",
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["CAMERA_ROLL", "LOCATION"]
+    },
+    "facebookAppId": "",
+    "facebookScheme": "",
+    "facebookDisplayName": "Test App"
+  }
+}
